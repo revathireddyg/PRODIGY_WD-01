@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+    <link rel="stylesheet" href="/css/main.css" />
+
+    <title>Movie Website</title>
+    
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Movies</a>
+        <ul class="nav">
+            <li>
+                <a href="#"><i class="fa fa-home" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="#">Adults</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Trend</a></li>
+            <li><a href="#">My List</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Search"/>
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+    </header>
+    
+       <div class="banner">
+        <div class="content active">
+            <img src="/img/image 1.png" alt="" class="movietitle"/>
+            <h4>
+                <span>2023</span><span><i> 12+</i></span>
+                <span>2hr 20min</span><span> Adventure</span>     
+            </h4>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                 Hic excepturi corporis natus explicabo sapiente omnis dignissimos 
+                 corrupti provident amet ducimus laudantium possimus, praesentium 
+                 deleniti modi incidunt alias voluptas? Aliquid, pariatur.
+            </p>
+             <div class="button">
+                <a href="#"><i class="fa fa-play" aria-hidden="true"></i>watch</a>
+                <a href="#"><i class="fa fa-plus" aria-hidden="true"></i>My List</a>
+             </div>
+        </div>
+     
+      
+          <div class="carousel-box">
+            <div class="carousel">
+                <div class="carousel-item">
+                    <img src="/img/movies/1.1.1.jpg" alt=""/>
+                </div>
+                 <div class="carousel-item">
+                     <img src="/img/movies/2.jpeg" alt=""/>
+                 </div>
+                 <div class="carousel-item">
+                     <img src="/img/movies/3.jpeg" alt=""/>
+                 </div>
+                 <div class="carousel-item">
+                     <img src="/img/movies/4.jpeg" alt=""/>
+                 </div>
+                 <div class="carousel-item">
+                     <img src="/img/movies/5.jpeg" alt=""/>
+                 </div>
+                </div>
+            </div>
+          <a href="#" class="play">
+            <i class="fa fa-play-circle-o" aria-hidden="true"></i> Watch Trailer</a>
+
+            <ul class="sci">
+              <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            </ul>
+
+          </div>
+       </div>
+       
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script>
+        $(document).ready(function(){
+    $('.carousel').carousel();
+     });
+    </script>
+    
+</body>
+</html>
